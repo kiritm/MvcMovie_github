@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "WelcomeParam2View";
+}
+
+<h1>WelcomeParam2View</h1>
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["NumTimes"]!; i++)
+    {
+        <li>@ViewData["Message"]</li>
+    }
+</ul>
